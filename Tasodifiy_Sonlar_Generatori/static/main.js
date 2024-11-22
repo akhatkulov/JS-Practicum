@@ -1,5 +1,5 @@
 const getRand = (x,y) =>{
-    return Math.abs(Math.floor(Math.random() * (x - y + 1)) + x);
+    return Math.floor(Math.random() * (y - x + 1)) + x;
 }
 
 const generateNumber = () =>{
